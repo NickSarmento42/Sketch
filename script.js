@@ -38,12 +38,12 @@ document.addEventListener('mouseup', () => {
 createGrid(16);
 
 resizeBtn.addEventListener('click', () => {
-  let newSize = prompt('Enter number of squares per side (between 1 and 100):');
+  let newSize = prompt('Escolher número de quadrados (entre 1 e 100):');
   newSize = parseInt(newSize);
   if (!isNaN(newSize) && newSize > 0 && newSize <= 100) {
     createGrid(newSize);
   } else {
-    alert('Please enter a valid number between 1 and 100.');
+    alert('Por favor, insira um número válido entre 1 e 100.');
   }
 });
 
