@@ -34,6 +34,9 @@ container.addEventListener('mousedown', () => {
 document.addEventListener('mouseup', () => {
   isMouseDown = false;
 });
+document.addEventListener('mouseleave', () => {
+  isMouseDown = false;
+});
 
 createGrid(16);
 
