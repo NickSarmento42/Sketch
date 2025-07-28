@@ -1,0 +1,41 @@
+/* Reset CSS */
+
+/* Set box-sizing to border-box for all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a consistent line-height */
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+/* Remove list styles on ul, ol elements */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set images to be responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Ensure tables have consistent border spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
